@@ -7,7 +7,7 @@ public class Explosion : MonoBehaviour
     [SerializeField] private float _explosionForce;
     [SerializeField] private ParticleSystem _effect;
 
-    [SerializeField] private SpawnCubes _spawnCubes;
+    [SerializeField] private SpawnerCubes _spawnCubes;
 
     [SerializeField] private int _chanceExplode = 100;
 

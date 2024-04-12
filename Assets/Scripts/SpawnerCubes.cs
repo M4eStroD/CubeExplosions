@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpawnCubes : MonoBehaviour
+public class SpawnerCubes : MonoBehaviour
 {
     [SerializeField] private Explosion _explodeCube;
     [SerializeField] private Renderer _renderer;
